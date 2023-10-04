@@ -7,6 +7,10 @@ import Readme from "../../assets/sidebar-assets/readme.svg";
 import Group from "../../assets/sidebar-assets/Group.png";
 import Settings from "../../assets/sidebar-assets/Settings.svg";
 import Crown from "../../assets/sidebar-assets/Crown.svg";
+import OnlineCourse from "../../assets/sidebar-assets/online-course-icon 1.svg";
+import Resume from "../../assets/sidebar-assets/resume-cv-icon 1.svg";
+import User from "../../assets/sidebar-assets/User_01.svg";
+import Logout from "../../assets/sidebar-assets/LogOut.svg";
 
 import "../Sidebar/Sidebar.css";
 
@@ -51,6 +55,35 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="sidebar-line"></div>
+      <div className="sidebar-lower">
+        <div>
+          <div className="lower-menu-element" style={{ marginBottom: "36px" }}>
+            <img className="sidebar-logo" src={Resume} alt="resume" />
+            <p>Resume</p>
+          </div>
+          <div className="lower-menu-element" style={{ marginBottom: "151px" }}>
+            <img
+              className="sidebar-logo"
+              src={OnlineCourse}
+              alt="online-course"
+            />
+            <p>Courses</p>
+          </div>
+          <div className="user-container">
+            <div className="user-div">
+              <div className="profile-img" style={{ marginRight: "12px" }}>
+                <img src={User} alt="user-profile-img" />
+              </div>
+              <div>
+                <span className="username">Josephine</span>
+                <br />
+                <span className="username">Langford</span>
+              </div>
+            </div>
+            <img src={Logout} alt="logout-img" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

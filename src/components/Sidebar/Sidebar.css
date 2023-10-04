@@ -14,8 +14,6 @@
 .sidebar-menu {
   display: flex;
   flex-direction: column;
-  /* justify-content: ; */
-  /* align-items: center; */
   margin-left: 23px;
   margin-top: 35px;
   margin-bottom: 35px;
@@ -33,8 +31,7 @@
 }
 
 .sidebar-logo {
-  margin-right: 6px;
-  /* margin-left: 19px; */
+  margin-right: 12px;
 }
 
 .active-menu-element {
@@ -45,4 +42,46 @@
 
 .sidebar-line {
   border: 1px solid rgba(82.89, 127.63, 160.44, 0.5);
+}
+
+.lower-menu-element {
+  display: flex;
+  color: #a8a8a8;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  width: max-content;
+}
+
+.user-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-div {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  padding: 12px;
+  background-color: #0280d4;
+  border-radius: 24px;
+}
+
+.username {
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 20px;
+  background: linear-gradient(90deg, #0280d4 0%, #0adab0 113.36%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sidebar-lower {
+  margin-left: 42px;
+  margin-right: 17px;
+  margin-top: 34px;
 }
