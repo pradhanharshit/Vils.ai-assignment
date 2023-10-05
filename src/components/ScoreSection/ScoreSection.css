@@ -1,0 +1,78 @@
+.score-container {
+  padding: 20px;
+}
+
+.score-heading {
+  color: black;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.percent-val {
+  color: black;
+  font-size: 26px;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.score-blue {
+  color: #0280d4;
+  font-size: 13px;
+  font-family: Poppins;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.score-green {
+  color: #02bc63;
+  font-size: 13px;
+  font-family: Poppins;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.score-red {
+  color: #eb5757;
+  font-size: 13px;
+  font-family: Poppins;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.manag-div {
+  display: flex;
+}
+
+.manag-heading {
+  color: black;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.manag-content {
+  color: black;
+  font-size: 17px;
+  font-family: Poppins;
+  font-weight: 400;
+  margin-right: 50px;
+}
+
+.cirprog-div {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-line {
+  border: 1px #d9d9d9 solid;
+  margin: 10px 0px 10px 0px;
+}
+
+.custom-progress-color CircularProgressbar-path {
+  stroke: #ff5733;
+}

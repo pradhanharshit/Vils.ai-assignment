@@ -1,43 +1,43 @@
 .sidebar-container {
-  height: 1080px;
-  width: 270px;
+  height: max-content;
+  width: max-content;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
 }
 
 #company-logo {
-  margin-left: 42px;
-  margin-top: 47px;
+  margin-left: 30px;
+  margin-top: 32px;
 }
 
 .sidebar-menu {
   display: flex;
   flex-direction: column;
-  margin-left: 23px;
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .menu-element {
   display: flex;
   color: black;
-  font-size: 20px;
+  font-size: 14px;
   font-family: Poppins;
   font-weight: 400;
-  margin-top: 15px;
+  margin-top: 8px;
   width: max-content;
-  padding: 11px 30px 10px 19px;
+  padding: 6px 15px 6px 15px;
 }
 
 .sidebar-logo {
-  margin-right: 12px;
+  margin-right: 8px;
 }
 
 .active-menu-element {
   color: white;
   background-color: #0280d4;
-  border-radius: 25.5px;
+  border-radius: 20px;
 }
 
 .sidebar-line {
@@ -47,7 +47,7 @@
 .lower-menu-element {
   display: flex;
   color: #a8a8a8;
-  font-size: 20px;
+  font-size: 15px;
   font-family: Poppins;
   font-weight: 400;
   width: max-content;
@@ -57,6 +57,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .user-div {
@@ -65,23 +66,23 @@
 }
 
 .profile-img {
-  padding: 12px;
+  padding: 6px;
   background-color: #0280d4;
-  border-radius: 24px;
+  border-radius: 100%;
 }
 
 .username {
-  font-size: 18px;
+  font-size: 15px;
   font-family: Roboto;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 14px;
   background: linear-gradient(90deg, #0280d4 0%, #0adab0 113.36%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .sidebar-lower {
-  margin-left: 42px;
+  margin-left: 36px;
   margin-right: 17px;
-  margin-top: 34px;
+  margin-top: 20px;
 }

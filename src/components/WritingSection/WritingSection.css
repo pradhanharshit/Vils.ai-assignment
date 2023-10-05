@@ -1,0 +1,64 @@
+.content-div {
+  margin: 22px 194px 10px 30px;
+}
+
+.content-heading {
+  color: black;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.writing-content {
+  color: black;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.color-div {
+  height: 10px;
+  width: 32px;
+  margin-right: 8px;
+}
+
+.mistakes {
+  color: black;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+.mistake-conatiner {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+
+.mistake-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.div-red {
+  background-color: #e26161;
+}
+
+.div-yellow {
+  background-color: #dca11d;
+}
+
+.div-blue {
+  background-color: #1c98eb;
+}
+
+.line {
+  width: 100%;
+  margin-top: 10px;
+  border: 1px #1c98eb solid;
+}

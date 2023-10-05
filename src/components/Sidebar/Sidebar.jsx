@@ -57,11 +57,11 @@ const Sidebar = () => {
       <div className="sidebar-line"></div>
       <div className="sidebar-lower">
         <div>
-          <div className="lower-menu-element" style={{ marginBottom: "36px" }}>
+          <div className="lower-menu-element" style={{ marginBottom: "20px" }}>
             <img className="sidebar-logo" src={Resume} alt="resume" />
             <p>Resume</p>
           </div>
-          <div className="lower-menu-element" style={{ marginBottom: "151px" }}>
+          <div className="lower-menu-element" style={{ marginBottom: "60px" }}>
             <img
               className="sidebar-logo"
               src={OnlineCourse}
@@ -71,7 +71,7 @@ const Sidebar = () => {
           </div>
           <div className="user-container">
             <div className="user-div">
-              <div className="profile-img" style={{ marginRight: "12px" }}>
+              <div className="profile-img" style={{ marginRight: "6px" }}>
                 <img src={User} alt="user-profile-img" />
               </div>
               <div>
