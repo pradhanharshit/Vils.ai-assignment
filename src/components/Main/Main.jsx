@@ -13,7 +13,7 @@ const Main = () => {
           <WritingSection />
           <ScoreSection />
         </div>
-        <div style={{ width: "36%" }}>
+        <div style={{ width: "36%", borderLeft: "2px solid #1C98EB" }}>
           <ResultSection />
         </div>
       </div>

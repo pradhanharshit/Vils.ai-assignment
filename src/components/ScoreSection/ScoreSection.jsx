@@ -1,6 +1,9 @@
 import "../ScoreSection/ScoreSection.css";
 // import { CircularProgressbar } from "react-circular-progressbar";
-import { CircularProgressbarWithChildren } from "react-circular-progressbar";
+import {
+  CircularProgressbarWithChildren,
+  buildStyles,
+} from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 const ScoreSection = () => {
@@ -13,9 +16,11 @@ const ScoreSection = () => {
             <CircularProgressbarWithChildren
               value={59}
               strokeWidth={15}
-              styles={{
-                stroke: "#02BC63",
-              }}
+              styles={buildStyles({
+                // Colors
+                pathColor: "#0280D4",
+                trailColor: "#d6d6d6",
+              })}
             >
               <p className="percent-val">59</p>
             </CircularProgressbarWithChildren>
@@ -38,9 +43,11 @@ const ScoreSection = () => {
             <CircularProgressbarWithChildren
               value={89}
               strokeWidth={15}
-              styles={{
-                stroke: "#02BC63",
-              }}
+              styles={buildStyles({
+                // Colors
+                pathColor: "rgba(2, 188, 99, 1)",
+                trailColor: "#d6d6d6",
+              })}
             >
               <p className="percent-val">89</p>
             </CircularProgressbarWithChildren>
@@ -64,9 +71,11 @@ const ScoreSection = () => {
               value={39}
               strokeWidth={15}
               className="custom-progress-color"
-              styles={{
-                stroke: "#02BC63",
-              }}
+              styles={buildStyles({
+                // Colors
+                pathColor: "rgba(235, 87, 87, 1)",
+                trailColor: "#d6d6d6",
+              })}
             >
               <p className="percent-val">39</p>
             </CircularProgressbarWithChildren>
