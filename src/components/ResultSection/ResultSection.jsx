@@ -22,7 +22,7 @@ const ResultSection = () => {
           <p className="result-score">Score: 74%</p>
         </div>
         <div className="pie-div">
-          <img src={PieChart} alt="piechart" width="220px" height="220px" />
+          <img src={PieChart} alt="piechart" width="200px" height="200px" />
           <div>
             <div style={{ display: "flex", marginTop: "20px" }}>
               <div
@@ -67,12 +67,22 @@ const ResultSection = () => {
             </div>
             <div className="border"></div>
             <div className="wrong3">
-              <div className="correct-answers3"> Skiped:</div>
+              <div
+                className="correct-answers3"
+                style={{ color: "rgba(156, 156, 156, 1)" }}
+              >
+                Skiped:
+              </div>
               <div className="correct-answers-val1">0</div>
             </div>
             <div className="border-cut"></div>
             <div className="wrong3">
-              <div className="correct-answers4"> Out of time:</div>
+              <div
+                className="correct-answers4"
+                style={{ color: "rgba(156, 156, 156, 1)" }}
+              >
+                Out of time:
+              </div>
               <div className="correct-answers-val1">0</div>
             </div>
             <div className="border-cut"></div>

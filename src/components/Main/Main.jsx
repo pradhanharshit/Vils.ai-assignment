@@ -6,7 +6,7 @@ import WritingSection from "../WritingSection/WritingSection";
 
 const Main = () => {
   return (
-    <div className="main" style={{ width: "100%" }}>
+    <div className="main">
       <Header />
       <div className="main-div">
         <div style={{ width: "64%" }}>
