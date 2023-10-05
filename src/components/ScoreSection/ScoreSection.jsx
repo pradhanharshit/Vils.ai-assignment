@@ -19,7 +19,7 @@ const ScoreSection = () => {
               styles={buildStyles({
                 // Colors
                 pathColor: "#0280D4",
-                trailColor: "#d6d6d6",
+                trailColor: "rgba(149, 212, 254)",
               })}
             >
               <p className="percent-val">59</p>
@@ -46,7 +46,7 @@ const ScoreSection = () => {
               styles={buildStyles({
                 // Colors
                 pathColor: "rgba(2, 188, 99, 1)",
-                trailColor: "#d6d6d6",
+                trailColor: "rgba(148, 225, 188)",
               })}
             >
               <p className="percent-val">89</p>
@@ -74,7 +74,7 @@ const ScoreSection = () => {
               styles={buildStyles({
                 // Colors
                 pathColor: "rgba(235, 87, 87, 1)",
-                trailColor: "#d6d6d6",
+                trailColor: "rgba(225, 169, 169)",
               })}
             >
               <p className="percent-val">39</p>
