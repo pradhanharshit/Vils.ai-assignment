@@ -17,6 +17,9 @@ import "../Sidebar/Sidebar.css";
 const Sidebar = () => {
   return (
     <div className="sidebar-container">
+      <div className="equals-div">
+        <span style={{ fontSize: "30px", fontWeight: "bold" }}>=</span>
+      </div>
       <img id="company-logo" src={CompanyLogo} alt="company-logo" />
       <div className="sidebar">
         <div className="sidebar-menu">

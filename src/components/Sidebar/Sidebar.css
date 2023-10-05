@@ -4,6 +4,17 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
+  position: relative;
+}
+
+.equals-div {
+  position: absolute;
+  padding: 5px 8px;
+  background-color: #0280d4;
+  border-radius: 100%;
+  color: white;
+  top: 10px;
+  right: -19px;
 }
 
 #company-logo {
